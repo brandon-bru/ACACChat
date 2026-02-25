@@ -95,7 +95,19 @@
     </footer>
 
     <!-- Put Chat Widget 1 Line Below -->
-    
+    <script type="text/javascript">
+  (function(w, d, x, id){
+    s=d.createElement('script');
+    s.src='https://brandon-sunsetlab.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js';
+    s.async=1;
+    s.id=id;
+    d.getElementsByTagName('head')[0].appendChild(s);
+    w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+  })(window, document, 'amazon_connect', '07416fcb-33c9-4a6c-81f4-96a1706bdcdf');
+  amazon_connect('styles', { iconType: 'CHAT', openChat: { color: '#ffffff', backgroundColor: '#123456' }, closeChat: { color: '#ffffff', backgroundColor: '#123456'} });
+  amazon_connect('snippetId', 'QVFJREFIak5tL2RUNFhneWV5b2RFSFowb2FxOTY2UTAzQ1gwTko4NUZONTVMYVpydkFGU1paSmpNaWZsVHh0OTU5NzhaSFJjQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNV1pQTWtwbkJxSUYvMVJaSUFnRVFnQ3VrbW5JNFlDYlljcGh0SmN6ZUI1WEpxVm9LSHlCR01JTm5Ea0dmSDZkSGgvbFJXVTlQcXBDRFIwbWg6OlJ6MzZJMnJPeU5oTmw1VmxVczYycTZsclMrVnJEWjNSOWRDWTJSZnIvNk5LdTJxNm5DS05rUVFWUWg3elhBSENYS2VzRDRsM05jUjQwVnNjOE9lUmpHSHNUWThnalBEcHpLVHpIUldRWkg0dDdQUjEwblJWODRLb29LVVRZaTlSS1RWVHpiVFE4a0VoV3RUSDVuNHlkenVGblNoL0YvUT0=');
+  amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+</script>
     <!-- Chat Widget Above -->
   </body>
 </html>
